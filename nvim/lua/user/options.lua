@@ -42,7 +42,7 @@ vim.opt.backupdir:remove('.') -- keep backups out of the current directory
 
 --vim.opt.breakindent = true -- maintain indent when wrapping indented lines
 --vim.opt.shortmess:append({ I = true }) -- disable the splash screen
---vim.opt.completeopt = 'menuone,longest,preview'
+vim.opt.completeopt = 'menuone,longest,preview'
 vim.opt.signcolumn = 'yes:2'
 --vim.opt.showmode = false
 --vim.opt.updatetime = 4001 -- Set updatime to 1ms longer than the default to prevent polyglot from changing it
