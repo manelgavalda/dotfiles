@@ -7,7 +7,7 @@ vim.g.maplocalleader = ' '
 vim.keymap.set('n', '<leader>k', ':nohlsearch<CR>')
 
 ---- Close all open buffers.
---vim.keymap.set('n', '<leader>Q', ':bufdo bdelete<CR>')
+vim.keymap.set('n', '<leader>Q', ':bufdo bdelete<CR>')
 
 ---- Allow gf to open non-existent files.
 --vim.keymap.set('', 'gf', ':edit <cfile><CR>')
