@@ -19,3 +19,6 @@ ln -s $DOTFILES/nvim $HOME/.config/nvim
 rm -rf $HOME/.config/phpactor
 ln -s $DOTFILES/phpactor $HOME/.config/phpactor
 
+rm -rf $HOME/.config/i3/i3.conf
+ln -s $DOTFILES/i3/i3.conf $HOME/.config/i3/config
+
