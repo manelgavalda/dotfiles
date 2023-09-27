@@ -316,6 +316,15 @@ use({
   end,
 })
 
+-- Trailing whitespace
+use({
+  'ntpeters/vim-better-whitespace',
+  config = function()
+    vim.g.better_whitespace_enabled=1
+    vim.g.strip_whitespace_on_save=1
+  end,
+})
+
 -- Automatically set up your configuration after cloning packer.nvim
 -- Put this at the end after all plugins
 if packer_bootstrap then
