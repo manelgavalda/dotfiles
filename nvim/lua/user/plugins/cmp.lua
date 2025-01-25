@@ -42,6 +42,7 @@ cmp.setup({
     ['<CR>'] = cmp.mapping.confirm({ select = true }),
   },
   sources = {
+    { name = 'copilot' }, -- Agrega Copilot como fuente de completado
     { name = 'nvim_lsp' },
     { name = 'nvim_lsp_signature_help' },
     { name = 'luasnip' },
