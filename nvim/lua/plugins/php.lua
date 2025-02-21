@@ -64,8 +64,8 @@ return {
         direction = "float",
         float_opts = {
           border = "rounded",
-          width = 160,
-          height = 12,
+          width = 180,
+          height = 18,
           row = 0,
         },
       })
@@ -119,9 +119,10 @@ return {
         enable_token_counting = false,
       },
       windows = {
-        position = "right", -- the position of the sidebar
-        wrap = true,
-        width = 40,
+        position = "right",
+        wrap = true, -- similar to vim.o.wrap
+        width = 40, -- default % based on available width in vertical layout
+        height = 80, -- default % based on available height in horizontal layout
         sidebar_header = {
           enabled = true, -- true, false to enable/disable the header
           align = "center", -- left, center, right for title
@@ -129,7 +130,7 @@ return {
         },
         input = {
           prefix = "> ",
-          height = 1, -- Adjusted height of the input window in vertical layout
+          height = 20, -- Adjusted height of the input window in vertical layout
         },
         edit = {
           border = "rounded",
