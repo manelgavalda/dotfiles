@@ -65,7 +65,7 @@ return {
         float_opts = {
           border = "rounded",
           width = 180,
-          height = 18,
+          height = 22,
           row = 0,
         },
       })
