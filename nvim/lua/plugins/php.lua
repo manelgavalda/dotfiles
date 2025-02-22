@@ -120,7 +120,7 @@ return {
       },
       windows = {
         position = "right",
-        width = 45, -- default % based on available width in vertical layout
+        width = 45,
         sidebar_header = {
           align = "left",
           rounded = false,
