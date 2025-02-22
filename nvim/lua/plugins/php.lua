@@ -121,8 +121,7 @@ return {
       windows = {
         position = "right",
         wrap = true, -- similar to vim.o.wrap
-        width = 40, -- default % based on available width in vertical layout
-        height = 80, -- default % based on available height in horizontal layout
+        width = 45, -- default % based on available width in vertical layout
         sidebar_header = {
           enabled = true, -- true, false to enable/disable the header
           align = "center", -- left, center, right for title
@@ -130,7 +129,7 @@ return {
         },
         input = {
           prefix = "> ",
-          height = 20, -- Adjusted height of the input window in vertical layout
+          height = 9, -- Adjusted height of the input window in vertical layout
         },
         edit = {
           border = "rounded",
