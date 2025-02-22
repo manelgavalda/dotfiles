@@ -120,26 +120,13 @@ return {
       },
       windows = {
         position = "right",
-        wrap = true, -- similar to vim.o.wrap
         width = 45, -- default % based on available width in vertical layout
         sidebar_header = {
-          enabled = true, -- true, false to enable/disable the header
-          align = "left", -- left, center, right for title
+          align = "left",
           rounded = false,
         },
-        input = {
-          prefix = "> ",
-          height = 9, -- Adjusted height of the input window in vertical layout
-        },
-        edit = {
-          border = "rounded",
-          start_insert = true, -- Start insert mode when opening the edit window
-        },
         ask = {
-          floating = false, -- Open the 'AvanteAsk' prompt in a floating window
-          start_insert = true, -- Start insert mode when opening the ask window
-          border = "rounded",
-          focus_on_apply = "ours", -- which diff to focus after applying
+          start_insert = false,
         },
       },
     },
