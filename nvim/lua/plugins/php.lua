@@ -120,7 +120,7 @@ return {
       },
       windows = {
         position = "right",
-        width = 45,
+        width = 50,
         sidebar_header = {
           align = "left",
           rounded = false,
