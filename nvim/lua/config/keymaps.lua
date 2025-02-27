@@ -5,3 +5,5 @@ local map = vim.keymap.set
 
 map("n", "<Leader>k", "<Cmd>nohlsearch<CR>")
 map("n", "<Leader>n", "<Cmd>Neotree toggle<CR>")
+
+vim.cmd([[command! W w]])
